@@ -44,27 +44,27 @@ public class Rekursif {
 
 
     public static void main(String[] args) {
-        int n = 10;
-        int a = 1;
-        int b = 1;
-        int c = 1;
+        int n = 15;
+        int a = 4;
+        int b = 4;
+        int c = 4;
         System.out.println("1. sumOfThree :" );
         sumOfThree(n, a, b,c);
 
         System.out.println();
-        System.out.println("2. Angak mundur dari 5 : ");
-        printReverse(5);
+        System.out.println("2. Angka mundur dari 10 : ");
+        printReverse(10);
         System.out.println();
 
-        String str = "mabam";
-        System.out.println("3. Kata " +str + "adalah palindrome : " + isPalindrome(str, 0,str.length() - 1));
+        String str = " mabam ";
+        System.out.println("3. Kata " + str + " adalah palindrome : " + isPalindrome(str, 0,str.length() - 1));
     
         int[] arr = {
-            1,2,3,4,5,6,7,8,9,10
+            1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
         };
-        System.out.println("4. Apakah 3 ada di array? " + contains(arr, arr.length, 3));
+        System.out.println("4. Apakah 6 ada di array? " + contains(arr, arr.length, 6));
 
         System.out.println("5. Nilai maksimum dalam array: " + findMax(arr, arr.length));
     
     }
-}
+} 
